@@ -37,7 +37,7 @@ The project has a total of 11 tests/gherkin scenarios.
  
 ## Required Configuration
  
-1. You must have the following programs installed on your Windows PC (This Installation only works on Windows OS, if you need to configure in a MacOs PC, please contact jvergaral@applaudostudios.com for support), please follow these steps:
+1. You must have the following programs installed on your Windows PC (This Installation only works on Windows OS, if you need to configure in a MacOs PC, please contact abustos@cbtw.tech for support), please follow these steps:
  
     - [Download and install git](https://github.com/git-guides/install-git#:~:text=To%20install%20Git%2C%20navigate%20to,installation%20by%20typing%3A%20git%20version%20.)
     - [Download and install JAVA JDK 17](https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html)
