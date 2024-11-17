@@ -58,7 +58,6 @@ The project has a total of 11 tests/gherkin scenarios.
         - "Scala" from JetBrains plug in
 
 2. Clone this project locally
- PENDING
     ```git
         git clone https://github.com/alebusgo/swaggwe-petstore-API-performance.git
     ```
