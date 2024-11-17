@@ -10,7 +10,7 @@ class CreateUserSimulation extends Simulation{
   val createUser = scenario("createNewUser").exec(karateFeature("classpath:features/user/createUser/createUser.feature"))
 
   setUp(
-    createUser.inject(rampUsers(10) during(5 seconds))
+    createUser.inject(rampUsers(1000) during(5 seconds))
   )
 
 }

@@ -10,7 +10,7 @@ class FindPetsByStatusSimulation extends Simulation{
   val getPetsByStatus = scenario("getPetsByStatusCall").exec(karateFeature("classpath:features/pet/findPetsByStatus/findPestByStatus.feature"))
 
   setUp(
-    getPetsByStatus.inject(rampUsers(10) during(5 seconds))
+    getPetsByStatus.inject(rampUsers(5000) during(5 seconds))
   )
 
 }

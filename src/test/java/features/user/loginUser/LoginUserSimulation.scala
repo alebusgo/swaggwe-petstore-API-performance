@@ -10,7 +10,7 @@ class LoginUserSimulation extends Simulation{
   val loginUser = scenario("loginTheUser").exec(karateFeature("classpath:features/user/loginUser/loginUser.feature"))
 
   setUp(
-    loginUser.inject(rampUsers(10) during(5 seconds))
+    loginUser.inject(rampUsers(1000) during(5 seconds))
   )
 
 }

@@ -60,18 +60,14 @@ The project has a total of 11 tests/gherkin scenarios.
 2. Clone this project locally
  PENDING
     ```git
-        git clone https://gitlab.com/corespaces/core-lifestyle/lifestyle-test/lifestyle-automation-mobile.git
+        git clone https://github.com/alebusgo/swaggwe-petstore-API-performance.git
     ```
  
 3. Open the project in Intellij IDEA and rebuild it 
  
 ## Running Auto Tests
 
-1. Run All Performace Test in QA environment, just go to the root of the project, and write this via the command line:
-   ```bash
-        gradle clean test --tests *ParallelRunnerWalkthroughs -Dkarate.env="qa" -i
-   ```
-2. Run one by one Performance Test in QA environment, just go to the root of the project, and write this via the command line: 
+1. Run one by one Performance Test in QA environment, just go to the root of the project, and write this via the command line: 
    ```bash
         mvn clean test-compile gatling:test -Dgatling.simulationClass=features.pet.findPetsByStatus.FindPetsByStatusSimulation
    ```
